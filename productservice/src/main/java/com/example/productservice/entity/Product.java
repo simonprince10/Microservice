@@ -22,8 +22,8 @@ public class Product {
 
         private int price;
 
-        @OneToMany(targetEntity=Product.class, fetch=FetchType.EAGER)
-        private List<Product> name;
+
+        private String name;
 
 
 
