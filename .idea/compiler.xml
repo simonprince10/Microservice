@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Inventoryservice" />
+        <module name="paymentservice" />
+        <module name="gateway" />
+        <module name="productservice" />
+        <module name="orderservice" />
+        <module name="discoveryserv" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apigateway" target="11" />
+      <module name="apigatewayzuul" target="11" />
+      <module name="discoveryserver" target="11" />
+      <module name="Discoveryserver" target="11" />
+      <module name="discoveryservers" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Discoveryserver" options="-parameters" />
+      <module name="Inventoryservice" options="-parameters" />
+      <module name="apigateway" options="-parameters" />
+      <module name="apigatewayzuul" options="-parameters" />
+      <module name="discoveryserv" options="-parameters" />
+      <module name="discoveryserver" options="-parameters" />
+      <module name="discoveryservers" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="orderservice" options="-parameters" />
+      <module name="paymentservice" options="-parameters" />
+      <module name="productservice" options="-parameters" />
+    </option>
+  </component>
+</project>

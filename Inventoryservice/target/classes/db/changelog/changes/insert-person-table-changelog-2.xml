@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="admin" id="2">
+        <insert tableName="inventory_Info">
+            <column name="id" valueNumeric="1"/>
+            <column name="order_No" value="001"/>
+            <column name="price" value="12200"/>
+            <column name="model" value="Oneplus"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="admin" id="4">
+        <insert tableName="inventory_Info">
+            <column name="id" valueNumeric="2"/>
+            <column name="order_No" value="002"/>
+            <column name="price" value="30000"/>
+            <column name="model" value="Samsung"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="admin" id="5">
+        <insert tableName="inventory_Info">
+            <column name="id" valueNumeric="3"/>
+            <column name="order_No" value="003"/>
+            <column name="price" value="60000"/>
+            <column name="model" value="Apple"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
